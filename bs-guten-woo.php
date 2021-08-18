@@ -21,7 +21,7 @@
   add_filter( 'use_block_editor_for_post_type', function( $can_edit, $post_type ){
     if( $post_type == 'product' ) $can_edit = true;
     return $can_edit;
-  }, 22, 2);
+  }, 99, 2);
 
 
   /**
@@ -36,17 +36,17 @@
 
 
   /**
+   * Remove description heading on product page
+   */
+  add_filter('woocommerce_product_description_heading', '__return_null');
+
+  
+  /**
    * Render single product description/content
    */
   add_action('woocommerce_after_single_product_summary', function(){
     wc_get_template('single-product/tabs/description.php');
   }, 99);
-
-
-  /**
-   * Remove description heading on product page
-   */
-  add_filter('woocommerce_product_description_heading', '__return_null');
 
 
   /**
