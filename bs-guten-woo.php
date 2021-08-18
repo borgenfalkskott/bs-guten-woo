@@ -1,13 +1,13 @@
 <?php
   /*
     Plugin Name:  B&S - Guten Woo
-    Plugin URI:   https://github.com/borgenfalkskott/
+    Plugin URI:   https://github.com/borgenfalkskott/bs-guten-woo
     Description:  Enable the gutenberg editor for your WooCommerce products.
     Version:      0.1.0
     Author:       Borgenfalk & Skott
     Author URI:   https://borgenfalk.se
     License:      MIT
-    License URI:  https://github.com/borgenfalkskott/
+    License URI:  https://github.com/borgenfalkskott/bs-guten-woo/blob/main/LICENSE
     Text Domain:  bs-guten-woo
     Domain Path:  /languages
   */
