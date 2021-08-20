@@ -1,0 +1,15 @@
+{
+    "name": "borgenfalkskott/bs-guten-woo",
+    "description": "Enable gutenberg editor for your Woo products.",
+    "type": "wordpress-muplugin",
+    "require": {
+        "php": ">=7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tommyskott",
+            "email": "tommy@borgenfalk.se"
+        }
+    ]
+}
